@@ -1,0 +1,117 @@
+
+/*
+*
+*	header
+*
+*/
+
+.userLogo{
+	width:120px;
+}
+.pleyLogo{
+	margin-top:20px;
+	width:120px;
+}
+.headerIcon{
+	margin-top:20px;
+	width: 40px;
+}
+
+/*
+*
+*	contents
+*
+*/
+#content{
+	top:0px;
+	left:0px;
+	position:absolute;
+	width:100%;
+	height:100%;
+}
+#main{
+	
+}
+
+
+/* --- Ranking --- */
+.rankingBoxContainer{
+	position: absolute;
+	padding:50px 0px;
+}
+.rankingBox{
+	float:left;
+	display:inline;
+	width:200px;
+	height:400px;
+	cursor: pointer;
+}
+.rankingBox .rankingBoxBack, .rankingBox .rankingBoxFront{
+	position:absolute;
+	width:200px;
+}
+.rankingBox .rankingBoxBack{
+	height:100%;
+	
+	-webkit-box-shadow: -5px 10px 20px 5px rgba(0,0,0,0.33);
+	-moz-box-shadow: -5px 10px 20px 5px rgba(0,0,0,0.33);
+	box-shadow: -5px 10px 20px 5px rgba(0,0,0,0.33);
+}
+.rankingBox .rankingBoxFront{
+
+}
+.rankingLocationName, .rankingLocationNumber, .rankingLocationScore{
+	color:rgba(255,255,255,0.7);
+	position:relative;
+}
+.rankingLocationName{
+	top:100px;
+	left:10px;
+	margin-top:10px;
+	font-family: Gotham-Extralight;
+	font-size:16px;
+}
+.rankingLocationNumber{
+	top:100px;
+	left:10px;
+	margin-top:10px;
+	font-family: Gotham-Medium;
+	font-size:24px;
+}
+
+.rankingLocationScore{
+	text-align:center;
+	margin:0px auto;
+	top:50%;
+	font-family: Gotham-Extralight;
+	font-size:64px;
+}
+
+
+/*
+*
+*	Footer
+*
+*/
+.tagListContainer{
+	position: absolute;
+	padding:50px 0px;
+}
+
+
+/*
+*
+*	background
+*
+*/
+
+#backgroundOverlay{
+	position:absolute;
+
+	left:0px;
+	top:0px;
+
+	width:100% !important;
+	height:100% !important;
+	background-color: rgba(0,0,0,0.8);
+}

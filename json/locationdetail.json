@@ -1,0 +1,62 @@
+{
+	"LocationID": "0001",
+	"locationName": "lemonade",
+	"region": "California",
+	"address": "",
+	"phoneNumber":"",
+	"locationThumbImage":"",
+	"tagData":{
+		"overall":{
+			"overall":"0.12",
+			"male":"0.32",
+			"male":"0.68"
+		},
+		"ageGroup1":{
+			"overall":"0.12",
+			"male":"0.32",
+			"male":"0.68"
+		},
+		"ageGroup2":{
+			"overall":"0.12",
+			"male":"0.32",
+			"male":"0.68"
+		},
+		"ageGroup3":{
+			"overall":"0.12",
+			"male":"0.32",
+			"male":"0.68"
+		},
+		"ageGroup4":{
+			"overall":"0.12",
+			"male":"0.32",
+			"male":"0.68"
+		},
+		"ageGroup5":{
+			"overall":"0.12",
+			"male":"0.32",
+			"male":"0.68"
+		},
+		"ageGroup6":{
+			"overall":"0.12",
+			"male":"0.32",
+			"male":"0.68"
+		}
+
+	},
+	
+
+	"recentReviews":[{
+		"review": {
+			"userID":"",
+			"userName":"",
+			"userProfileImage":"",
+			"data":[{
+				"tag": {
+					"tagID":"",
+					"tagName":"",
+					"tagCount":""
+				}
+			}]
+		}
+	}]
+}

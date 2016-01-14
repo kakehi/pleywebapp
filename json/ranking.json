@@ -1,0 +1,183 @@
+{
+
+	"rankings": [{
+		
+			"tagID": "0001",
+			"ranking": [{
+				"locationID": "0008",
+				"tagScore": "5.0"
+			}, {
+				"locationID": "0002",
+				"tagScore": "5.0"
+			}, {
+				"locationID": "0001",
+				"tagScore": "5.0"
+			}, {
+				"locationID": "0004",
+				"tagScore": "3.4"
+			}, {
+				"locationID": "0003",
+				"tagScore": "3.3"
+			}, {
+				"locationID": "0005",
+				"tagScore": "3.1"
+			}, {
+				"locationID": "0009",
+				"tagScore": "3.0"
+			}, {
+				"locationID": "0007",
+				"tagScore": "2.9"
+			}, {
+				"locationID": "0006",
+				"tagScore": "2.3"
+			}, {
+				"locationID": "0010",
+				"tagScore": "2.1"
+			}]
+
+		
+
+	},{
+		
+			"tagID": "0002",
+			"ranking": [{
+				"locationID": "0006",
+				"tagScore": "3.9"
+			}, {
+				"locationID": "0007",
+				"tagScore": "3.9"
+			}, {
+				"locationID": "0008",
+				"tagScore": "3.8"
+			}, {
+				"locationID": "0010",
+				"tagScore": "3.5"
+			}, {
+				"locationID": "0004",
+				"tagScore": "3.5"
+			}, {
+				"locationID": "0002",
+				"tagScore": "3.4"
+			}, {
+				"locationID": "0005",
+				"tagScore": "3.4"
+			}, {
+				"locationID": "0003",
+				"tagScore": "3.2"
+			}, {
+				"locationID": "0001",
+				"tagScore": "3.1"
+			}, {
+				"locationID": "0009",
+				"tagScore": "2.2"
+			}]
+
+	},{
+		
+			"tagID": "0003",
+			"ranking": [{
+				"locationID": "0002",
+				"tagScore": "4.8"
+			}, {
+				"locationID": "0007",
+				"tagScore": "4.3"
+			}, {
+				"locationID": "0008",
+				"tagScore": "3.4"
+			}, {
+				"locationID": "0006",
+				"tagScore": "3.3"
+			}, {
+				"locationID": "0001",
+				"tagScore": "3.2"
+			}, {
+				"locationID": "0010",
+				"tagScore": "3.0"
+			}, {
+				"locationID": "0005",
+				"tagScore": "2.9"
+			}, {
+				"locationID": "0003",
+				"tagScore": "2.0"
+			}, {
+				"locationID": "0009",
+				"tagScore": "1.9"
+			}, {
+				"locationID": "0004",
+				"tagScore": "1.8"
+			}]
+
+	},{
+		
+			"tagID": "0004",
+			"ranking": [{
+				"locationID": "0010",
+				"tagScore": "4.2"
+			}, {
+				"locationID": "0001",
+				"tagScore": "4.1"
+			}, {
+				"locationID": "0008",
+				"tagScore": "3.9"
+			}, {
+				"locationID": "0003",
+				"tagScore": "3.7"
+			}, {
+				"locationID": "0002",
+				"tagScore": "3.2"
+			}, {
+				"locationID": "0007",
+				"tagScore": "3.1"
+			}, {
+				"locationID": "0009",
+				"tagScore": "3.1"
+			}, {
+				"locationID": "0004",
+				"tagScore": "3.0"
+			}, {
+				"locationID": "0005",
+				"tagScore": "2.7"
+			}, {
+				"locationID": "0006",
+				"tagScore": "2.2"
+			}]
+
+	},{
+		
+			"tagID": "0005",
+			"ranking": [{
+				"locationID": "0008",
+				"tagScore": "4.1"
+			}, {
+				"locationID": "0001",
+				"tagScore": "3.9"
+			}, {
+				"locationID": "0010",
+				"tagScore": "3.6"
+			}, {
+				"locationID": "0006",
+				"tagScore": "3.5"
+			}, {
+				"locationID": "0002",
+				"tagScore": "3.5"
+			}, {
+				"locationID": "0004",
+				"tagScore": "3.3"
+			}, {
+				"locationID": "0007",
+				"tagScore": "3.2"
+			}, {
+				"locationID": "0003",
+				"tagScore": "3.1"
+			}, {
+				"locationID": "0005",
+				"tagScore": "2.9"
+			}, {
+				"locationID": "0009",
+				"tagScore": "2.9"
+			}]
+
+	}
+
+	]
+}

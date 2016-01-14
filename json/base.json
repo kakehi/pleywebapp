@@ -1,0 +1,94 @@
+{
+	"clientData": {
+		"clientID": "0001",
+		"clientName": "lemonade",
+		"clientLogoImage": "img/lemonade-logo@3x.png",
+		"clientBGImage": "img/fashionisland.jpg"
+	},
+	"locationList": [{
+		
+			"regionID": "0001",
+			"regionName": "California",
+			"regionThumbImage": "California",
+			"locations": [{
+				"locationID": "0001",
+				"locationName": "Fashion Island",
+				"locationThumbImage": ""
+			},{
+				"locationID": "0002",
+				"locationName": "Anaheim",
+				"locationThumbImage": ""
+			},{
+				"locationID": "0003",
+				"locationName": "Chicago",
+				"locationThumbImage": ""
+			}]
+			},
+			{
+			"regionID": "0002",
+			"regionName": "California",
+			"regionThumbImage": "California",
+			"locations": [{
+				"locationID": "0004",
+				"locationName": "Detroit",
+				"locationThumbImage": ""
+			},{
+				"locationID": "0005",
+				"locationName": "San Mateo",
+				"locationThumbImage": ""
+			}]
+			},{
+				"regionID": "0003",
+			"regionName": "California",
+			"regionThumbImage": "California",
+			"locations": [{
+				"locationID": "0006",
+				"locationName": "LAX",
+				"locationThumbImage": ""
+			},{
+				"locationID": "0007",
+				"locationName": "Santa Monica",
+				"locationThumbImage": ""
+			},{
+				"locationID": "0008",
+				"locationName": "San Francisco",
+				"locationThumbImage": ""
+			}]
+			},
+			{
+			"regionID": "0004",
+			"regionName": "California",
+			"regionThumbImage": "California",
+			"locations": [{
+				"locationID": "0009",
+				"locationName": "Venice Beach",
+				"locationThumbImage": ""
+			},{
+				"locationID": "0010",
+				"locationName": "Miami",
+				"locationThumbImage": ""
+			}]
+		
+	}],
+	"tagList": [{
+		"tagID":"0001",
+		"tagName":"Atmosphere",
+		"tagColor":{"r":"245","g":"166","b":"35"}
+		},{
+		"tagID":"0002",
+		"tagName":"Cleanliness",
+		"tagColor":{"r":"255","g":"60","b":"37"}
+		},{
+		"tagID":"0003",
+		"tagName":"Taste",
+		"tagColor":{"r":"189","g":"16","b":"224"}
+		},{
+		"tagID":"0004",
+		"tagName":"Speed",
+		"tagColor":{"r":"5","g":"183","b":"155"}
+		},{
+		"tagID":"0005",
+		"tagName":"Price",
+		"tagColor":{"r":"74","g":"144","b":"226"}
+		}]
+}
