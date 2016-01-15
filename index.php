@@ -9,6 +9,7 @@
 	<script src="js/jquery.mousewheel.min.js"></script>
 	<script src="js/countto.js"></script>
 
+    <script src="js/commonFunction.js"></script>
     <script src="js/perPageRanking.js"></script>
     <script src="js/commonFooter1.js"></script>
     <script src="js/general.js"></script>

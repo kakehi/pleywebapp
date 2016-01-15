@@ -25,8 +25,10 @@ function perPageRanking(){
 	for(var i=0; i<_locationCounts; i++){
 
 		// Create Ranking Boxes
-		$('.rankingBoxContainer').append('<div id="rankingBox'+String(i)+'" class="rankingBox" data-box-id="'+i+'" data-location-id="'+parseInt(reorganizedLocationList[i].locationID)+'"><div class="rankingBoxBack"></div><div class="rankingBoxFront" style="height:0px; margin-top:'+String($(window).height() * 0.4 + 100)+'px"></div><div class="rankingLocationName"></div><div class="rankingLocationNumber">'+(i+1)+'</div><div class="rankingLocationScore">4.6</div></div>');
+		$('.rankingBoxContainer').append('<div id="rankingBox'+String(i)+'" class="rankingBox" data-box-id="'+i+'" data-location-id="'+ parseInt(reorganizedLocationList[i].locationID)+'"><div class="rankingBoxBack"></div><div class="rankingBoxFront" style="height:0px; margin-top:'+String($(window).height() * 0.4 + 100)+'px"></div><div class="rankingLocationName"></div><div class="rankingLocationNumber">'+(i+1)+'</div><div class="rankingLocationScore">4.6</div></div>');
 		
+		
+
 		// Add click functions
 		$('#rankingBox'+String(i)).click(function(){
 			updateSelectedLocation($(this).data('location-id'));
@@ -65,16 +67,14 @@ function animateBarSize(speed){
 
 	$('[CLASS="rankingBoxContainer"]').css({'width':(_locationCounts) * barWidth + 'px'});
 
-
-	var _currentLocationBoxID;
-
 	for(var i=0; i<_locationCounts; i++){
 
 		// -- Adjusting Ranking Box Size
 
 		// Assign different attributes depending if selected or not.
 		var heightBack, heightFront, width, marginTopBack, marginTopFront, marginLeft, zIndex, bgColor;
-		if($('#rankingBox'+String(i)).data('location-id') === _currentLocation){
+		
+		if(parseInt(reorganizedLocationList[i].locationID) === _currentLocationID){
 			heightBack = ($(window).height() * 0.4 + 120)+'px';
 			heightFront = (0.2*_perPageDataJSON[0].rankings[_currentTab].ranking[i].tagScore * $(window).height() * 0.4 + 120)+'px';
 			width = (barWidth + 20) + 'px';
@@ -83,8 +83,6 @@ function animateBarSize(speed){
 			marginLeft = '-10px';
 			zIndex = 20000 + i;
 			bgColor = 'rgba(255,255,255,.7)';
-
-			_currentLocationBoxID = i;
 
 		}else{
 			heightBack = ($(window).height() * 0.4 + 100)+'px';
@@ -130,9 +128,9 @@ function animateBarSize(speed){
 
 
 	// -- check if the slide is outside of the page or not.
-	var myPos = _currentLocationBoxID * barWidth + $('.rankingBoxContainer').offset().left;
+	var myPos = _currentLocationNumb * barWidth + $('.rankingBoxContainer').offset().left;
 	if(myPos < 0 ||  myPos > $(window).width() - barWidth){
-		animteSlideToAdjust(myPos, _currentLocationBoxID * barWidth);
+		animteSlideToAdjust(myPos, _currentLocationNumb * barWidth);
 	}
 
 }
@@ -248,7 +246,8 @@ function reorganizeLocation(){
 
 function updateSelectedLocation(n){
 	
-	_currentLocation = n;
+	_currentLocationID = n;
+	_currentLocationNumb = checkLocationNumberFromID(_locationList, n);
 
 	animateFooter();
 

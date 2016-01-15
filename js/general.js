@@ -3,7 +3,7 @@
 var _baseDataJSON, _perPageDataJSON = [];
 var _regionCounts, _locationCounts;
 
-var _currentRegion = "", _currentLocation = "", _currentCategory = "", _pastTab = "", _currentFilterObject = {};
+var _currentRegionID = "", _currentRegionNumb = "", _currentLocationID = "", _currentLocationNumb = "", _currentCategory = "", _pastTab = "", _currentFilterObject = {};
 
 var _locationList = [];
 var _tagList = [];
@@ -80,7 +80,7 @@ $(document).ready(function(){
 	}
 
 	function loadedDataJSON(json, url, n){
-		console.log(json);
+
 		_perPageDataJSON.push(json);
 		if(n<url.length-1){
 			n++;
@@ -97,8 +97,10 @@ $(document).ready(function(){
 		*/
 		_currentTab = parseInt(_tagList[Math.floor(Math.random()*_tagList.length)].tagID);
 		_currentFilterObject.id = _currentTab;
-		_currentLocation = parseInt(_locationList[Math.floor(Math.random()*_locationList.length)].locationID);
-		_currentFilterObject.location = _currentLocation ;
+		_currentLocationNumb = Math.floor(Math.random()*_locationList.length);
+		console.log(_currentTab);
+		_currentLocationID = _locationList[_currentLocationNumb].locationID;
+		_currentFilterObject.location = _currentLocationID ;
 		/*
 		*
 		*
@@ -120,8 +122,7 @@ $(document).ready(function(){
 	}
 
 	function createHeader(){
-		
-		console.log( _baseDataJSON.clientData.clientLogoImage);
+
 		//assign header user logo
 		$('.userLogo').attr('src', _baseDataJSON.clientData.clientLogoImage);
 
