@@ -1,62 +1,2243 @@
 {
-	"LocationID": "0001",
-	"locationName": "lemonade",
-	"region": "California",
-	"address": "",
-	"phoneNumber":"",
-	"locationThumbImage":"",
-	"tagData":{
-		"overall":{
-			"overall":"0.12",
-			"male":"0.32",
-			"male":"0.68"
-		},
-		"ageGroup1":{
-			"overall":"0.12",
-			"male":"0.32",
-			"male":"0.68"
-		},
-		"ageGroup2":{
-			"overall":"0.12",
-			"male":"0.32",
-			"male":"0.68"
-		},
-		"ageGroup3":{
-			"overall":"0.12",
-			"male":"0.32",
-			"male":"0.68"
-		},
-		"ageGroup4":{
-			"overall":"0.12",
-			"male":"0.32",
-			"male":"0.68"
-		},
-		"ageGroup5":{
-			"overall":"0.12",
-			"male":"0.32",
-			"male":"0.68"
-		},
-		"ageGroup6":{
-			"overall":"0.12",
-			"male":"0.32",
-			"male":"0.68"
-		}
-
-	},
-	
-
-	"recentReviews":[{
-		"review": {
-			"userID":"",
-			"userName":"",
-			"userProfileImage":"",
-			"data":[{
-				"tag": {
-					"tagID":"",
-					"tagName":"",
-					"tagCount":""
+	"locationDetail": [{
+		"locationID": "0001",
+		"locationName": "lemonade",
+		"region": "California",
+		"address": "",
+		"phoneNumber": "",
+		"locationThumbImage": "",
+		"demographicData": [{
+			"tagID": "0001",
+			"demographicData": [{
+					"demography": "overall",
+					"overall": "0.23",
+					"male": "0.32",
+					"female": "0.62"
+				}, {
+					"demography": "ageGroup1",
+					"overall": "0.54",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup2",
+					"overall": "0.33",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup3",
+					"overall": "0.77",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup4",
+					"overall": "0.42",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup5",
+					"overall": "0.56",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup6",
+					"overall": "0.52",
+					"male": "0.32",
+					"female": "0.68"
 				}
-			}]
-		}
-	}]
+			]
+		}, {
+			"tagID": "0002",
+			"demographicData": [{
+					"demography": "overall",
+					"overall": "0.23",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup1",
+					"overall": "0.65",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup2",
+					"overall": "0.48",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup3",
+					"overall": "0.77",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup4",
+					"overall": "0.72",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup5",
+					"overall": "0.56",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup6",
+					"overall": "0.52",
+					"male": "0.32",
+					"female": "0.68"
+				}
+
+			]
+		}, {
+			"tagID": "0003",
+			"demographicData": [{
+					"demography": "overall",
+					"overall": "0.23",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup1",
+					"overall": "0.65",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup2",
+					"overall": "0.98",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup3",
+					"overall": "0.77",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup4",
+					"overall": "0.72",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup5",
+					"overall": "0.24",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup6",
+					"overall": "0.52",
+					"male": "0.32",
+					"female": "0.68"
+				}
+
+			]
+		}, {
+			"tagID": "0004",
+			"demographicData": [{
+					"demography": "overall",
+					"overall": "0.23",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup1",
+					"overall": "0.65",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup2",
+					"overall": "0.98",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup3",
+					"overall": "0.77",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup4",
+					"overall": "0.72",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup5",
+					"overall": "0.56",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup6",
+					"overall": "0.52",
+					"male": "0.32",
+					"female": "0.68"
+				}
+
+			]
+		}, {
+			"tagID": "0005",
+			"demographicData": [{
+					"demography": "overall",
+					"overall": "0.23",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup1",
+					"overall": "0.65",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup2",
+					"overall": "0.98",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup3",
+					"overall": "0.77",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup4",
+					"overall": "0.72",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup5",
+					"overall": "0.56",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup6",
+					"overall": "0.52",
+					"male": "0.32",
+					"female": "0.68"
+				}
+
+			]
+		}],
+
+
+		"recentReviews": [{
+			"review": {
+				"userID": "",
+				"userName": "",
+				"userProfileImage": "",
+				"data": [{
+					"tag": {
+						"tagID": "",
+						"tagName": "",
+						"tagCount": ""
+					}
+				}]
+			}
+		}]
+	},{
+		"locationID": "0002",
+		"locationName": "lemonade",
+		"region": "California",
+		"address": "",
+		"phoneNumber": "",
+		"locationThumbImage": "",
+		"demographicData": [{
+			"tagID": "0001",
+			"demographicData": [{
+					"demography": "overall",
+					"overall": "0.23",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup1",
+					"overall": "0.65",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup2",
+					"overall": "0.98",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup3",
+					"overall": "0.77",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup4",
+					"overall": "0.72",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup5",
+					"overall": "0.56",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup6",
+					"overall": "0.52",
+					"male": "0.32",
+					"female": "0.68"
+				}
+
+			]
+		}, {
+			"tagID": "0002",
+			"demographicData": [{
+					"demography": "overall",
+					"overall": "0.79",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup1",
+					"overall": "0.65",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup2",
+					"overall": "0.23",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup3",
+					"overall": "0.77",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup4",
+					"overall": "0.56",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup5",
+					"overall": "0.56",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup6",
+					"overall": "0.52",
+					"male": "0.32",
+					"female": "0.68"
+				}
+
+			]
+		}, {
+			"tagID": "0003",
+			"demographicData": [{
+					"demography": "overall",
+					"overall": "0.23",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup1",
+					"overall": "0.65",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup2",
+					"overall": "0.98",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup3",
+					"overall": "0.77",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup4",
+					"overall": "0.72",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup5",
+					"overall": "0.56",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup6",
+					"overall": "0.52",
+					"male": "0.32",
+					"female": "0.68"
+				}
+
+			]
+		}, {
+			"tagID": "0004",
+			"demographicData": [{
+					"demography": "overall",
+					"overall": "0.23",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup1",
+					"overall": "0.65",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup2",
+					"overall": "0.98",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup3",
+					"overall": "0.77",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup4",
+					"overall": "0.72",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup5",
+					"overall": "0.56",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup6",
+					"overall": "0.52",
+					"male": "0.32",
+					"female": "0.68"
+				}
+
+			]
+		}, {
+			"tagID": "0005",
+			"demographicData": [{
+					"demography": "overall",
+					"overall": "0.23",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup1",
+					"overall": "0.65",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup2",
+					"overall": "0.98",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup3",
+					"overall": "0.77",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup4",
+					"overall": "0.72",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup5",
+					"overall": "0.56",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup6",
+					"overall": "0.52",
+					"male": "0.32",
+					"female": "0.68"
+				}
+
+			]
+		}],
+
+
+		"recentReviews": [{
+			"review": {
+				"userID": "",
+				"userName": "",
+				"userProfileImage": "",
+				"data": [{
+					"tag": {
+						"tagID": "",
+						"tagName": "",
+						"tagCount": ""
+					}
+				}]
+			}
+		}]
+	},
+	{
+		"locationID": "0003",
+		"locationName": "lemonade",
+		"region": "California",
+		"address": "",
+		"phoneNumber": "",
+		"locationThumbImage": "",
+		"demographicData": [{
+			"tagID": "0001",
+			"demographicData": [{
+					"demography": "overall",
+					"overall": "0.23",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup1",
+					"overall": "0.65",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup2",
+					"overall": "0.98",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup3",
+					"overall": "0.77",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup4",
+					"overall": "0.72",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup5",
+					"overall": "0.56",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup6",
+					"overall": "0.52",
+					"male": "0.32",
+					"female": "0.68"
+				}
+
+			]
+		}, {
+			"tagID": "0002",
+			"demographicData": [{
+					"demography": "overall",
+					"overall": "0.38",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup1",
+					"overall": "0.52",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup2",
+					"overall": "0.98",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup3",
+					"overall": "0.77",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup4",
+					"overall": "0.72",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup5",
+					"overall": "0.56",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup6",
+					"overall": "0.56",
+					"male": "0.32",
+					"female": "0.68"
+				}
+
+			]
+		}, {
+			"tagID": "0003",
+			"demographicData": [{
+					"demography": "overall",
+					"overall": "0.69",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup1",
+					"overall": "0.62",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup2",
+					"overall": "0.98",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup3",
+					"overall": "0.77",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup4",
+					"overall": "0.72",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup5",
+					"overall": "0.56",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup6",
+					"overall": "0.52",
+					"male": "0.32",
+					"female": "0.68"
+				}
+
+			]
+		}, {
+			"tagID": "0004",
+			"demographicData": [{
+					"demography": "overall",
+					"overall": "0.23",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup1",
+					"overall": "0.65",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup2",
+					"overall": "0.98",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup3",
+					"overall": "0.77",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup4",
+					"overall": "0.72",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup5",
+					"overall": "0.56",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup6",
+					"overall": "0.52",
+					"male": "0.32",
+					"female": "0.68"
+				}
+
+			]
+		}, {
+			"tagID": "0005",
+			"demographicData": [{
+					"demography": "overall",
+					"overall": "0.29",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup1",
+					"overall": "0.32",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup2",
+					"overall": "0.98",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup3",
+					"overall": "0.56",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup4",
+					"overall": "0.72",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup5",
+					"overall": "0.48",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup6",
+					"overall": "0.52",
+					"male": "0.32",
+					"female": "0.68"
+				}
+
+			]
+		}],
+
+
+		"recentReviews": [{
+			"review": {
+				"userID": "",
+				"userName": "",
+				"userProfileImage": "",
+				"data": [{
+					"tag": {
+						"tagID": "",
+						"tagName": "",
+						"tagCount": ""
+					}
+				}]
+			}
+		}]
+	},{
+		"locationID": "0004",
+		"locationName": "lemonade",
+		"region": "California",
+		"address": "",
+		"phoneNumber": "",
+		"locationThumbImage": "",
+		"demographicData": [{
+			"tagID": "0001",
+			"demographicData": [{
+					"demography": "overall",
+					"overall": "0.23",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup1",
+					"overall": "0.32",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup2",
+					"overall": "0.98",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup3",
+					"overall": "0.77",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup4",
+					"overall": "0.72",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup5",
+					"overall": "0.56",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup6",
+					"overall": "0.52",
+					"male": "0.32",
+					"female": "0.68"
+				}
+
+			]
+		}, {
+			"tagID": "0002",
+			"demographicData": [{
+					"demography": "overall",
+					"overall": "0.23",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup1",
+					"overall": "0.65",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup2",
+					"overall": "0.98",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup3",
+					"overall": "0.77",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup4",
+					"overall": "0.72",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup5",
+					"overall": "0.56",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup6",
+					"overall": "0.52",
+					"male": "0.32",
+					"female": "0.68"
+				}
+
+			]
+		}, {
+			"tagID": "0003",
+			"demographicData": [{
+					"demography": "overall",
+					"overall": "0.23",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup1",
+					"overall": "0.65",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup2",
+					"overall": "0.67",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup3",
+					"overall": "0.32",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup4",
+					"overall": "0.72",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup5",
+					"overall": "0.56",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup6",
+					"overall": "0.52",
+					"male": "0.32",
+					"female": "0.68"
+				}
+			]
+		}, {
+			"tagID": "0004",
+			"demographicData": [{
+					"demography": "overall",
+					"overall": "0.54",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup1",
+					"overall": "0.65",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup2",
+					"overall": "0.98",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup3",
+					"overall": "0.77",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup4",
+					"overall": "0.72",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup5",
+					"overall": "0.56",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup6",
+					"overall": "0.52",
+					"male": "0.32",
+					"female": "0.68"
+				}
+
+			]
+		}, {
+			"tagID": "0005",
+			"demographicData": [{
+					"demography": "overall",
+					"overall": "0.29",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup1",
+					"overall": "0.65",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup2",
+					"overall": "0.98",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup3",
+					"overall": "0.77",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup4",
+					"overall": "0.72",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup5",
+					"overall": "0.56",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup6",
+					"overall": "0.52",
+					"male": "0.32",
+					"female": "0.68"
+				}
+			]
+		}],
+
+
+		"recentReviews": [{
+			"review": {
+				"userID": "",
+				"userName": "",
+				"userProfileImage": "",
+				"data": [{
+					"tag": {
+						"tagID": "",
+						"tagName": "",
+						"tagCount": ""
+					}
+				}]
+			}
+		}]
+	},{
+		"locationID": "0005",
+		"locationName": "lemonade",
+		"region": "California",
+		"address": "",
+		"phoneNumber": "",
+		"locationThumbImage": "",
+		"demographicData": [{
+			"tagID": "0001",
+			"demographicData": [{
+					"demography": "overall",
+					"overall": "0.23",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup1",
+					"overall": "0.65",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup2",
+					"overall": "0.98",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup3",
+					"overall": "0.77",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup4",
+					"overall": "0.72",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup5",
+					"overall": "0.56",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup6",
+					"overall": "0.52",
+					"male": "0.32",
+					"female": "0.68"
+				}
+
+			]
+		}, {
+			"tagID": "0002",
+			"demographicData": [{
+					"demography": "overall",
+					"overall": "0.23",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup1",
+					"overall": "0.65",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup2",
+					"overall": "0.98",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup3",
+					"overall": "0.77",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup4",
+					"overall": "0.72",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup5",
+					"overall": "0.56",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup6",
+					"overall": "0.52",
+					"male": "0.32",
+					"female": "0.68"
+				}
+
+			]
+		}, {
+			"tagID": "0003",
+			"demographicData": [{
+					"demography": "overall",
+					"overall": "0.23",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup1",
+					"overall": "0.65",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup2",
+					"overall": "0.98",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup3",
+					"overall": "0.77",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup4",
+					"overall": "0.72",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup5",
+					"overall": "0.56",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup6",
+					"overall": "0.52",
+					"male": "0.32",
+					"female": "0.68"
+				}
+
+			]
+		}, {
+			"tagID": "0004",
+			"demographicData": [{
+					"demography": "overall",
+					"overall": "0.23",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup1",
+					"overall": "0.65",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup2",
+					"overall": "0.98",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup3",
+					"overall": "0.77",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup4",
+					"overall": "0.72",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup5",
+					"overall": "0.56",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup6",
+					"overall": "0.52",
+					"male": "0.32",
+					"female": "0.68"
+				}
+
+			]
+		}, {
+			"tagID": "0005",
+			"demographicData": [{
+					"demography": "overall",
+					"overall": "0.23",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup1",
+					"overall": "0.65",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup2",
+					"overall": "0.98",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup3",
+					"overall": "0.77",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup4",
+					"overall": "0.72",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup5",
+					"overall": "0.56",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup6",
+					"overall": "0.52",
+					"male": "0.32",
+					"female": "0.68"
+				}
+
+			]
+		}],
+
+
+		"recentReviews": [{
+			"review": {
+				"userID": "",
+				"userName": "",
+				"userProfileImage": "",
+				"data": [{
+					"tag": {
+						"tagID": "",
+						"tagName": "",
+						"tagCount": ""
+					}
+				}]
+			}
+		}]
+	},{
+		"locationID": "0006",
+		"locationName": "lemonade",
+		"region": "California",
+		"address": "",
+		"phoneNumber": "",
+		"locationThumbImage": "",
+		"demographicData": [{
+			"tagID": "0001",
+			"demographicData": [{
+					"demography": "overall",
+					"overall": "0.23",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup1",
+					"overall": "0.65",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup2",
+					"overall": "0.98",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup3",
+					"overall": "0.77",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup4",
+					"overall": "0.72",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup5",
+					"overall": "0.56",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup6",
+					"overall": "0.52",
+					"male": "0.32",
+					"female": "0.68"
+				}
+
+			]
+		}, {
+			"tagID": "0002",
+			"demographicData": [{
+					"demography": "overall",
+					"overall": "0.23",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup1",
+					"overall": "0.65",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup2",
+					"overall": "0.98",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup3",
+					"overall": "0.77",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup4",
+					"overall": "0.72",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup5",
+					"overall": "0.56",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup6",
+					"overall": "0.52",
+					"male": "0.32",
+					"female": "0.68"
+				}
+
+			]
+		}, {
+			"tagID": "0003",
+			"demographicData": [{
+					"demography": "overall",
+					"overall": "0.23",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup1",
+					"overall": "0.65",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup2",
+					"overall": "0.98",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup3",
+					"overall": "0.77",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup4",
+					"overall": "0.72",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup5",
+					"overall": "0.56",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup6",
+					"overall": "0.52",
+					"male": "0.32",
+					"female": "0.68"
+				}
+
+			]
+		}, {
+			"tagID": "0004",
+			"demographicData": [{
+					"demography": "overall",
+					"overall": "0.23",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup1",
+					"overall": "0.65",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup2",
+					"overall": "0.98",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup3",
+					"overall": "0.77",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup4",
+					"overall": "0.72",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup5",
+					"overall": "0.56",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup6",
+					"overall": "0.52",
+					"male": "0.32",
+					"female": "0.68"
+				}
+
+			]
+		}, {
+			"tagID": "0005",
+			"demographicData": [{
+					"demography": "overall",
+					"overall": "0.23",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup1",
+					"overall": "0.65",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup2",
+					"overall": "0.98",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup3",
+					"overall": "0.77",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup4",
+					"overall": "0.72",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup5",
+					"overall": "0.56",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup6",
+					"overall": "0.52",
+					"male": "0.32",
+					"female": "0.68"
+				}
+
+			]
+		}],
+
+
+		"recentReviews": [{
+			"review": {
+				"userID": "",
+				"userName": "",
+				"userProfileImage": "",
+				"data": [{
+					"tag": {
+						"tagID": "",
+						"tagName": "",
+						"tagCount": ""
+					}
+				}]
+			}
+		}]
+	},
+	{
+		"locationID": "0007",
+		"locationName": "lemonade",
+		"region": "California",
+		"address": "",
+		"phoneNumber": "",
+		"locationThumbImage": "",
+		"demographicData": [{
+			"tagID": "0001",
+			"demographicData": [{
+					"demography": "overall",
+					"overall": "0.23",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup1",
+					"overall": "0.65",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup2",
+					"overall": "0.98",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup3",
+					"overall": "0.77",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup4",
+					"overall": "0.72",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup5",
+					"overall": "0.56",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup6",
+					"overall": "0.52",
+					"male": "0.32",
+					"female": "0.68"
+				}
+
+			]
+		}, {
+			"tagID": "0002",
+			"demographicData": [{
+					"demography": "overall",
+					"overall": "0.38",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup1",
+					"overall": "0.52",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup2",
+					"overall": "0.98",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup3",
+					"overall": "0.77",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup4",
+					"overall": "0.72",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup5",
+					"overall": "0.56",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup6",
+					"overall": "0.56",
+					"male": "0.32",
+					"female": "0.68"
+				}
+
+			]
+		}, {
+			"tagID": "0003",
+			"demographicData": [{
+					"demography": "overall",
+					"overall": "0.69",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup1",
+					"overall": "0.62",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup2",
+					"overall": "0.98",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup3",
+					"overall": "0.77",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup4",
+					"overall": "0.72",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup5",
+					"overall": "0.56",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup6",
+					"overall": "0.52",
+					"male": "0.32",
+					"female": "0.68"
+				}
+
+			]
+		}, {
+			"tagID": "0004",
+			"demographicData": [{
+					"demography": "overall",
+					"overall": "0.23",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup1",
+					"overall": "0.65",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup2",
+					"overall": "0.98",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup3",
+					"overall": "0.77",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup4",
+					"overall": "0.72",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup5",
+					"overall": "0.56",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup6",
+					"overall": "0.52",
+					"male": "0.32",
+					"female": "0.68"
+				}
+
+			]
+		}, {
+			"tagID": "0005",
+			"demographicData": [{
+					"demography": "overall",
+					"overall": "0.32",
+					"male": "0.39",
+					"female": "0.56"
+				}, {
+					"demography": "ageGroup1",
+					"overall": "0.32",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup2",
+					"overall": "0.98",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup3",
+					"overall": "0.56",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup4",
+					"overall": "0.72",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup5",
+					"overall": "0.48",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup6",
+					"overall": "0.52",
+					"male": "0.32",
+					"female": "0.68"
+				}
+
+			]
+		}],
+
+
+		"recentReviews": [{
+			"review": {
+				"userID": "",
+				"userName": "",
+				"userProfileImage": "",
+				"data": [{
+					"tag": {
+						"tagID": "",
+						"tagName": "",
+						"tagCount": ""
+					}
+				}]
+			}
+		}]
+	},{
+		"locationID": "0008",
+		"locationName": "lemonade",
+		"region": "California",
+		"address": "",
+		"phoneNumber": "",
+		"locationThumbImage": "",
+		"demographicData": [{
+			"tagID": "0001",
+			"demographicData": [{
+					"demography": "overall",
+					"overall": "0.41",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup1",
+					"overall": "0.62",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup2",
+					"overall": "0.98",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup3",
+					"overall": "0.72",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup4",
+					"overall": "0.72",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup5",
+					"overall": "0.56",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup6",
+					"overall": "0.52",
+					"male": "0.32",
+					"female": "0.68"
+				}
+
+			]
+		}, {
+			"tagID": "0002",
+			"demographicData": [{
+					"demography": "overall",
+					"overall": "0.23",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup1",
+					"overall": "0.65",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup2",
+					"overall": "0.32",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup3",
+					"overall": "0.77",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup4",
+					"overall": "0.72",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup5",
+					"overall": "0.24",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup6",
+					"overall": "0.52",
+					"male": "0.32",
+					"female": "0.68"
+				}
+
+			]
+		}, {
+			"tagID": "0003",
+			"demographicData": [{
+					"demography": "overall",
+					"overall": "0.23",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup1",
+					"overall": "0.65",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup2",
+					"overall": "0.98",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup3",
+					"overall": "0.77",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup4",
+					"overall": "0.72",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup5",
+					"overall": "0.56",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup6",
+					"overall": "0.52",
+					"male": "0.32",
+					"female": "0.68"
+				}
+
+			]
+		}, {
+			"tagID": "0004",
+			"demographicData": [{
+					"demography": "overall",
+					"overall": "0.23",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup1",
+					"overall": "0.65",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup2",
+					"overall": "0.98",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup3",
+					"overall": "0.77",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup4",
+					"overall": "0.72",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup5",
+					"overall": "0.56",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup6",
+					"overall": "0.52",
+					"male": "0.32",
+					"female": "0.68"
+				}
+
+			]
+		}, {
+			"tagID": "0005",
+			"demographicData": [{
+					"demography": "overall",
+					"overall": "0.23",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup1",
+					"overall": "0.65",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup2",
+					"overall": "0.98",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup3",
+					"overall": "0.77",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup4",
+					"overall": "0.72",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup5",
+					"overall": "0.56",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup6",
+					"overall": "0.52",
+					"male": "0.32",
+					"female": "0.68"
+				}
+
+			]
+		}],
+
+
+		"recentReviews": [{
+			"review": {
+				"userID": "",
+				"userName": "",
+				"userProfileImage": "",
+				"data": [{
+					"tag": {
+						"tagID": "",
+						"tagName": "",
+						"tagCount": ""
+					}
+				}]
+			}
+		}]
+	},{
+		"locationID": "0009",
+		"locationName": "lemonade",
+		"region": "California",
+		"address": "",
+		"phoneNumber": "",
+		"locationThumbImage": "",
+		"demographicData": [{
+			"tagID": "0001",
+			"demographicData": [{
+					"demography": "overall",
+					"overall": "0.15",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup1",
+					"overall": "0.32",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup2",
+					"overall": "0.98",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup3",
+					"overall": "0.77",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup4",
+					"overall": "0.72",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup5",
+					"overall": "0.56",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup6",
+					"overall": "0.52",
+					"male": "0.32",
+					"female": "0.68"
+				}
+
+			]
+		}, {
+			"tagID": "0002",
+			"demographicData": [{
+					"demography": "overall",
+					"overall": "0.65",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup1",
+					"overall": "0.98",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup2",
+					"overall": "0.98",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup3",
+					"overall": "0.44",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup4",
+					"overall": "0.72",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup5",
+					"overall": "0.56",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup6",
+					"overall": "0.56",
+					"male": "0.32",
+					"female": "0.68"
+				}
+			]
+		}, {
+			"tagID": "0003",
+			"demographicData": [{
+					"demography": "overall",
+					"overall": "0.69",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup1",
+					"overall": "0.62",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup2",
+					"overall": "0.98",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup3",
+					"overall": "0.77",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup4",
+					"overall": "0.72",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup5",
+					"overall": "0.56",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup6",
+					"overall": "0.52",
+					"male": "0.32",
+					"female": "0.68"
+				}
+
+			]
+		}, {
+			"tagID": "0004",
+			"demographicData": [{
+					"demography": "overall",
+					"overall": "0.23",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup1",
+					"overall": "0.65",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup2",
+					"overall": "0.98",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup3",
+					"overall": "0.77",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup4",
+					"overall": "0.72",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup5",
+					"overall": "0.56",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup6",
+					"overall": "0.52",
+					"male": "0.32",
+					"female": "0.68"
+				}
+
+			]
+		}, {
+			"tagID": "0005",
+			"demographicData": [{
+					"demography": "overall",
+					"overall": "0.29",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup1",
+					"overall": "0.32",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup2",
+					"overall": "0.98",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup3",
+					"overall": "0.56",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup4",
+					"overall": "0.72",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup5",
+					"overall": "0.48",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup6",
+					"overall": "0.52",
+					"male": "0.32",
+					"female": "0.68"
+				}
+
+			]
+		}],
+
+
+		"recentReviews": [{
+			"review": {
+				"userID": "",
+				"userName": "",
+				"userProfileImage": "",
+				"data": [{
+					"tag": {
+						"tagID": "",
+						"tagName": "",
+						"tagCount": ""
+					}
+				}]
+			}
+		}]
+	},{
+		"locationID": "0010",
+		"locationName": "lemonade",
+		"region": "California",
+		"address": "",
+		"phoneNumber": "",
+		"locationThumbImage": "",
+		"demographicData": [{
+			"tagID": "0001",
+			"demographicData": [{
+					"demography": "overall",
+					"overall": "0.23",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup1",
+					"overall": "0.65",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup2",
+					"overall": "0.98",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup3",
+					"overall": "0.77",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup4",
+					"overall": "0.72",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup5",
+					"overall": "0.56",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup6",
+					"overall": "0.52",
+					"male": "0.32",
+					"female": "0.68"
+				}
+
+			]
+		}, {
+			"tagID": "0002",
+			"demographicData": [{
+					"demography": "overall",
+					"overall": "0.23",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup1",
+					"overall": "0.65",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup2",
+					"overall": "0.98",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup3",
+					"overall": "0.77",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup4",
+					"overall": "0.72",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup5",
+					"overall": "0.56",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup6",
+					"overall": "0.52",
+					"male": "0.32",
+					"female": "0.68"
+				}
+			]
+		}, {
+			"tagID": "0003",
+			"demographicData": [{
+					"demography": "overall",
+					"overall": "0.23",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup1",
+					"overall": "0.65",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup2",
+					"overall": "0.98",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup3",
+					"overall": "0.77",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup4",
+					"overall": "0.72",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup5",
+					"overall": "0.56",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup6",
+					"overall": "0.52",
+					"male": "0.32",
+					"female": "0.68"
+				}
+			]
+		}, {
+			"tagID": "0004",
+			"demographicData": [{
+					"demography": "overall",
+					"overall": "0.23",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup1",
+					"overall": "0.65",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup2",
+					"overall": "0.98",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup3",
+					"overall": "0.77",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup4",
+					"overall": "0.72",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup5",
+					"overall": "0.56",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup6",
+					"overall": "0.52",
+					"male": "0.32",
+					"female": "0.68"
+				}
+
+			]
+		}, {
+			"tagID": "0005",
+			"demographicData": [{
+					"demography": "overall",
+					"overall": "0.52",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup1",
+					"overall": "0.63",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup2",
+					"overall": "0.98",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup3",
+					"overall": "0.77",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup4",
+					"overall": "0.72",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup5",
+					"overall": "0.56",
+					"male": "0.32",
+					"female": "0.68"
+				}, {
+					"demography": "ageGroup6",
+					"overall": "0.52",
+					"male": "0.32",
+					"female": "0.68"
+				}
+
+			]
+		}],
+
+
+		"recentReviews": [{
+			"review": {
+				"userID": "",
+				"userName": "",
+				"userProfileImage": "",
+				"data": [{
+					"tag": {
+						"tagID": "",
+						"tagName": "",
+						"tagCount": ""
+					}
+				}]
+			}
+		}]
+	}
+
+
+
+	]
 }

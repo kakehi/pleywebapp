@@ -30,6 +30,7 @@ function perPageRanking(){
 		// Add click functions
 		$('#rankingBox'+String(i)).click(function(){
 			updateSelectedLocation($(this).data('location-id'));
+
 		});
 	}
 
@@ -75,23 +76,23 @@ function animateBarSize(speed){
 		var heightBack, heightFront, width, marginTopBack, marginTopFront, marginLeft, zIndex, bgColor;
 		if($('#rankingBox'+String(i)).data('location-id') === _currentLocation){
 			heightBack = ($(window).height() * 0.4 + 120)+'px';
-			heightFront = (0.2*_perPageDataJSON.rankings[_currentTab].ranking[i].tagScore * $(window).height() * 0.4 + 120)+'px';
+			heightFront = (0.2*_perPageDataJSON[0].rankings[_currentTab].ranking[i].tagScore * $(window).height() * 0.4 + 120)+'px';
 			width = (barWidth + 20) + 'px';
 			marginTopBack = '90px';
-			marginTopFront = (0.2*(5-_perPageDataJSON.rankings[_currentTab].ranking[i].tagScore) * $(window).height() * 0.4 + 90)+'px';
+			marginTopFront = (0.2*(5-_perPageDataJSON[0].rankings[_currentTab].ranking[i].tagScore) * $(window).height() * 0.4 + 90)+'px';
 			marginLeft = '-10px';
 			zIndex = 20000 + i;
-			bgColor = 'rgba(255,255,255,0.1)';
+			bgColor = 'rgba(255,255,255,.7)';
 
 			_currentLocationBoxID = i;
 
 		}else{
 			heightBack = ($(window).height() * 0.4 + 100)+'px';
-			heightFront = (0.2*_perPageDataJSON.rankings[_currentTab].ranking[i].tagScore * $(window).height() * 0.4 + 100)+'px';
+			heightFront = (0.2*_perPageDataJSON[0].rankings[_currentTab].ranking[i].tagScore * $(window).height() * 0.4 + 100)+'px';
 			width = barWidth + 'px';
 			marginTopBack = '100px';
 			marginLeft = '0px';
-			marginTopFront = (0.2*(5-_perPageDataJSON.rankings[_currentTab].ranking[i].tagScore) * $(window).height() * 0.4 + 100)+'px';
+			marginTopFront = (0.2*(5-_perPageDataJSON[0].rankings[_currentTab].ranking[i].tagScore) * $(window).height() * 0.4 + 100)+'px';
 			zIndex = 10000 + i;
 			bgColor = 'rgba(0,0,0,0.1)';
 		}
@@ -119,7 +120,7 @@ function animateBarSize(speed){
 
 
 		
-		//$('#rankingBox'+String(i)).find('.rankingScore').html(_perPageDataJSON.rankings[_currentTab].ranking[i].tagScore);
+		//$('#rankingBox'+String(i)).find('.rankingScore').html(_perPageDataJSON[0].rankings[_currentTab].ranking[i].tagScore);
 
 		// z-index Manager
 		$('#rankingBox'+String(i)+ ' .rankingBoxBack').css({'background-color' : bgColor});
@@ -155,12 +156,12 @@ function animateRankingScore(){
 		if(_pastTab === ""){
 				start = 0;
 			}else{
-				start = parseFloat(_perPageDataJSON.rankings[_pastTab].ranking[i].tagScore);
+				start = parseFloat(_perPageDataJSON[0].rankings[_pastTab].ranking[i].tagScore);
 			}
 
 		$('#rankingBox'+String(i)).find('.rankingLocationScore').countTo({
 							from: start,
-							to: parseFloat(_perPageDataJSON.rankings[_currentTab].ranking[i].tagScore),
+							to: parseFloat(_perPageDataJSON[0].rankings[_currentTab].ranking[i].tagScore),
 							decimals: 1,
 							speed: 200,
 							refreshInterval: 3
@@ -196,6 +197,8 @@ function initEventListener(){
          $('.rankingBoxContainer').stop().animate({
 	            'left': targetPos+'px'
 	        }, 2 * Math.abs(event.deltaY));
+    	
+    	event.preventDefault();
 
  	});
 
@@ -216,7 +219,7 @@ function reorganizeLocation(){
 	for(var i=0; i<_locationCounts; i++){
 		var j=0;
 		while(j<_locationCounts){
-			if(_perPageDataJSON.rankings[_currentTab].ranking[i].locationID === _locationList[j].locationID){
+			if(_perPageDataJSON[0].rankings[_currentTab].ranking[i].locationID === _locationList[j].locationID){
 				reorganizedLocationList.push(_locationList[j]);
 				j = _locationCounts;
 			}else{
@@ -246,6 +249,8 @@ function reorganizeLocation(){
 function updateSelectedLocation(n){
 	
 	_currentLocation = n;
+
+	animateFooter();
 
 	// -- change the barsizes
 	animateBarSize(100);

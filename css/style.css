@@ -1,6 +1,6 @@
 
 html{
-  overflow:hidden;
+  overflow-x:hidden;
 }
 
 .blur{
@@ -33,10 +33,9 @@ img.fullscreenImage {
 #footer{
 }
 .tagTitleBox{
-
+  position:absolute;
 }
 .tagTitleBoxInner{
-  position:absolute;
 
   cursor: pointer;
 
@@ -51,6 +50,22 @@ img.fullscreenImage {
    border-radius: 25px;
 }
 
+.tagDemographicGraphs{
+  z-index:40000;
+  position:absolute;
+  margin:30px 0;
+}
+.tagDemographicGraphsBack, .tagDemographicGraphsFront{
+  position:relative;
+  height:4px;
+}
+.tagDemographicGraphsBack{
+  background-color:rgba(0,0,0,.3);
+  width:200px;
+}
+.tagDemographicGraphsFront{
+  left:0%;
+}
 
 
 /*

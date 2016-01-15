@@ -1,6 +1,6 @@
 // JavaScript Document
 
-var _baseDataJSON, _perPageDataJSON;
+var _baseDataJSON, _perPageDataJSON = [];
 var _regionCounts, _locationCounts;
 
 var _currentRegion = "", _currentLocation = "", _currentCategory = "", _pastTab = "", _currentFilterObject = {};
@@ -46,13 +46,22 @@ $(document).ready(function(){
 		// --- tag counts
 		_tagList = _baseDataJSON.tagList;
 
-		loadDataJSON('json/ranking.json');
+		/*
+		*
+		*
+		*/
+		var jsonsToLoad = ['json/ranking.json', 'json/locationdetail.json'];
+		/*
+		*
+		*
+		*/
+		loadDataJSON(jsonsToLoad, 0);
 		
 		init();
 	}
 
 
-	function loadDataJSON(url){
+	function loadDataJSON(url, n){
 
 		/*$.ajax({
 		  type: 'GET',
@@ -63,18 +72,25 @@ $(document).ready(function(){
 		  }
 		  
 		});*/
-		$.get(url, function(data){
+		$.get(url[n], function(data){
 			var json = $.parseJSON(data);
-			loadedDataJSON(data);
+			loadedDataJSON(data, url, n);
 		});
 
 	}
 
-	function loadedDataJSON(json){
+	function loadedDataJSON(json, url, n){
+		console.log(json);
+		_perPageDataJSON.push(json);
+		if(n<url.length-1){
+			n++;
+			loadDataJSON(url, n);
+		}else{
+			startPerPage();
+		}
+	}
 
-		_perPageDataJSON = json;
-
-
+	function startPerPage(){
 		/*
 		*
 		*
